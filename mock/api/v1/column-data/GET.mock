@@ -1,0 +1,32 @@
+ 
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+ [
+    {
+      name: "Inside Links",
+      data: [
+        { y: 100, x: "Jun 1" },
+        { y: 200, x: "Jun 2" },
+        { y: 300, x: "Jun 3" },
+        { y: 400, x: "Jun 4" },
+        { y: 100, x: "Jun 5" },
+        { y: 200, x: "Jun 6" },
+        { y: 300, x: "Jun 7" },
+        { y: 400, x: "Jun 8" },
+      ],
+    },
+    {
+      name: "Outside Links",
+      data: [
+        { y: 100, x: "Jun 1" },
+        { y: 200, x: "Jun 2" },
+        { y: 300, x: "Jun 3" },
+        { y: 400, x: "Jun 4" },
+        { y: 100, x: "Jun 5" },
+        { y: 200, x: "Jun 6" },
+        { y: 300, x: "Jun 7" },
+        { y: 400, x: "Jun 8" },
+      ],
+    },
+  ]

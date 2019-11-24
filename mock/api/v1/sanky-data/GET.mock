@@ -1,0 +1,131 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  nodes: [
+    {
+      id: "Node1",
+      label: "High",
+      type: "priority",
+    },
+    {
+      id: "Node2",
+      label: "Medium",
+      type: "priority",
+    },
+    {
+      id: "Node3",
+      label: "Low",
+      type: "priority",
+    },
+    {
+      id: "Node4",
+      label: "Testing",
+      type: "category",
+    },
+    {
+      id: "Node5",
+      label: " Tony Ojeda",
+      type: "user",
+    },
+    {
+      id: "Node6",
+      label: "In Progress",
+      type: "status",
+    },
+    {
+      id: "Node7",
+      label: "Pending",
+      type: "status",
+    },
+    {
+      id: "Node8",
+      label: "Deployment",
+      type: "category",
+    },
+    {
+      id: "Node9",
+      label: "Octavian Stepan",
+      type: "user",
+    },
+  ],
+  links: [
+    {
+      id: "Link1",
+      source: 3,
+      target: 4,
+      value: 360,
+      label: 360,
+    },
+    {
+      id: "Link2",
+      source: 4,
+      target: 0,
+      value: 4,
+      label: 4,
+    },
+    {
+      id: "Link3",
+      source: 0,
+      target: 5,
+      value: 4,
+      label: 4,
+    },
+    {
+      id: "Link4",
+      source: 4,
+      target: 2,
+      value: 350,
+      label: 350,
+    },
+    {
+      id: "Link5",
+      source: 2,
+      target: 5,
+      value: 32,
+      label: 32,
+    },
+    {
+      id: "Link6",
+      source: 2,
+      target: 6,
+      value: 318,
+      label: 318,
+    },
+    {
+      id: "Link7",
+      source: 4,
+      target: 1,
+      value: 6,
+      label: 6,
+    },
+    {
+      id: "Link8",
+      source: 1,
+      target: 5,
+      value: 4,
+      label: 4,
+    },
+    {
+      id: "Link9",
+      source: 1,
+      target: 6,
+      value: 378,
+      label: 378,
+    },
+    {
+      id: "Link10",
+      source: 7,
+      target: 8,
+      value: 376,
+      label: 376,
+    },
+    {
+      id: "Link11",
+      source: 8,
+      target: 1,
+      value: 376,
+      label: 376,
+    },
+  ],
+}
